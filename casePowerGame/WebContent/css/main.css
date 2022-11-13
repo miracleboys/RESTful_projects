@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+    background-color: black;
+    background-image: url(images/backgroundBlur.jpg);
+    background-repeat: no-repeat;  
+    background-size: 100% 100%  
+}
+#magicRing{
+    zIndex:0;
+    position:absolute;
+    background-image: url(images/magicRing.png);
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+    width: 800px;
+    height: 800px;
+    filter: blur(0px);
+}
+
+.box{
+    zIndex:10;
+    position:absolute;
+    background-repeat: no-repeat;
+    background-size: 230px 200px;
+    width: 230px;
+    height: 200px;
+    cursor: pointer;
+}
+
+#keyGlow{
+	position:absolute;
+	left:150px;
+	top:150px;
+	zIndex:20;
+	display:none;
+	background-image: url(images/keyGlow.png);
+    background-repeat: no-repeat;
+    background-size: 500px 500px;
+	width:500px;
+	height:500px;
+}
+
+#shining{
+	position:absolute;
+	left:120px;
+	top:100px;
+	zIndex:15;
+	display:none;
+	background-image: url(images/shining.png);
+    background-repeat: no-repeat;
+    background-size: 500px 500px;
+	width:500px;
+	height:500px;
+}
